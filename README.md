@@ -175,10 +175,9 @@ New-MgSitePermission -SiteId $site.Id -BodyParameter $params
 
 ### Available Report Types
 
-- **UserDetail**: Detailed user-level Copilot usage
-- **ActivityUserDetail**: User activity details
-- **ActivityCounts**: Aggregated activity counts
-- **ActivityUserCounts**: User count metrics
+- **UserDetail**: Detailed user-level Copilot usage data
+- **UserCountsSummary**: Summary of Copilot user counts
+- **UserCountsTrend**: Trend data for Copilot user counts over time
 
 ## Usage
 
