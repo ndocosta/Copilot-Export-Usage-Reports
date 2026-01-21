@@ -1,0 +1,17 @@
+{
+  "TenantId": "your-tenant-id.onmicrosoft.com",
+  "ClientId": "your-app-registration-client-id",
+  "CertificateThumbprint": "YOUR_CERTIFICATE_THUMBPRINT",
+  "SharePointSiteUrl": "https://yourtenant.sharepoint.com/sites/YourSite",
+  "SharePointLibrary": "Shared Documents",
+  "SharePointFolder": "CopilotReports",
+  "LocalExportPath": "C:\\CopilotReports\\Exports",
+  "ReportTypes": [
+    "UserDetail",
+    "UserCountsSummary",
+    "UserCountsTrend"
+  ],
+  "ReportPeriodDays": 7,
+  "LocalRetentionDays": 30,
+  "PnP.PowerShellModuleLocation": "C:\\PowerShellModules\\PnP.PowerShell\\3.1.0\\PnP.PowerShell.psd1"
+}
